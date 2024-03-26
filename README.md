@@ -19,17 +19,17 @@ This repository contains a Users Management application built with NestJS and Ty
    ```bash
    git clone https://github.com/minaroid/users-management-nestjs.git
 
-2. Install dependencies:
+2. Create `.env` file using `.env.example`
+
+3. Install dependencies:
 
    ```bash
    npm install
 
-3. Run database container:
+4. Run database container:
 
    ```bash
    npm run db:dev:up
-
-4. Copy content from `.env.example` to `.env`
 
 5. Start the server:
 
