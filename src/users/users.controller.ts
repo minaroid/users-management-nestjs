@@ -30,7 +30,7 @@ export class UsersController {
     return this.usersService.findAll(query);
   }
 
-  @Delete('delete/:id')
+  @Delete(':id')
   @UseGuards(JwtAuthenticationGuard, RolesGuard)
   @Roles(RoleType.ADMIN)
   delete(@Param('id') id: number) {
