@@ -47,6 +47,6 @@ This repository contains a Users Management application built with NestJS and Ty
 - POST    /v1/auth/refresh
 
 - GET     /v1/users/profile
-- GET     /v1/users/profile/list
+- GET     /v1/users/list
 - PATCH   /v1/users/profile
 - DELETE  /v1/users/:id
